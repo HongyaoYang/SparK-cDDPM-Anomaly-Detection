@@ -1,4 +1,4 @@
-# SURF: SparK-conditioned Diffusion for Brain MRI Anomaly Detection
+# SparK-cDDPM Anomaly Detection
 
 This repository collects a cDDPM-SparK source snapshot and figures from the SURF brain MRI anomaly-detection project. A healthy-image diffusion model reconstructs an input image; reconstruction residuals provide pixel-level anomaly scores.
 
@@ -38,3 +38,7 @@ The source snapshot is a detached clean worktree. **The exact relationship betwe
 Datasets, trained checkpoints and per-patient predictions are not included. The source environment files provide starting points but may require site-specific dependencies, model resources and path changes. The HPC results used a healthy IXI training workflow and BraTS2020 T2 evaluation; consult the original source documentation and SURF run manifests for preprocessing, split, inference and evaluation details before attempting a rerun.
 
 The source is third-party material; check upstream attribution and licence terms before any public redistribution. This private repository is a research snapshot, not a validated clinical tool.
+
+## Acknowledgement
+
+This project was awarded first place in the Summer Undergraduate Research Fellowship (SURF) at the Academy of Life and Natural Sciences, Xi'an Jiaotong-Liverpool University.
