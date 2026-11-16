@@ -1,5 +1,8 @@
 # SparK-cDDPM Anomaly Detection
 
+**First-place project, Summer Undergraduate Research Fellowship (SURF)**  
+Academy of Life and Natural Sciences, Xi'an Jiaotong-Liverpool University.
+
 This repository collects a cDDPM-SparK source snapshot and figures from the SURF brain MRI anomaly-detection project. A healthy-image diffusion model reconstructs an input image; reconstruction residuals provide pixel-level anomaly scores.
 
 ```mermaid
@@ -39,6 +42,3 @@ Datasets, trained checkpoints and per-patient predictions are not included. The 
 
 The source is third-party material; check upstream attribution and licence terms before any public redistribution. This private repository is a research snapshot, not a validated clinical tool.
 
-## Acknowledgement
-
-This project was awarded first place in the Summer Undergraduate Research Fellowship (SURF) at the Academy of Life and Natural Sciences, Xi'an Jiaotong-Liverpool University.
